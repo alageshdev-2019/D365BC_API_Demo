@@ -1,0 +1,23 @@
+{
+  "name": "d365bc_api_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^1.6.0",
+    "adal-node": "^0.2.3",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "passport-oauth2": "^1.6.1"
+  }
+}
